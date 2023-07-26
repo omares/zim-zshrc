@@ -1,19 +1,7 @@
-custom
+zim-zshrc
 ======
 
-Add any custom aliases/settings to the `init.zsh` file.
+[zim-module](https://github.com/zimfw/zimfw) that contains personal zshrc customizations.
 
-Any functions should go in the `functions` subdirectory, where the name of the
-file is the name of the function.
+I like having a clean `.zshrc` file.
 
-For example, this function from your `.zshrc`:
-```zsh
-foo() {
-  print 'bar'
-}
-```
-
-becomes a file named `foo` in the `functions` subdirectory containing:
-```zsh
-print 'bar'
-```
