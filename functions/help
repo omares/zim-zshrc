@@ -1,1 +1,1 @@
-"$@" --help 2>&1 | bathelp
+"$@" --help 2>&1 | bat --plain --language=help

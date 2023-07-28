@@ -10,8 +10,6 @@ export DIRENV_LOG_FORMAT=""
 alias cat='bat'
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
-alias bathelp='bat --plain --language=help'
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
