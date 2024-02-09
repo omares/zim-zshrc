@@ -1,9 +1,3 @@
-# supress asdf direnv output
-export DIRENV_LOG_FORMAT=""
-
-source <(direnv hook zsh)
-
-
 # use nvim
 alias vi="nvim"
 alias vim="nvim"
